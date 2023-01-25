@@ -25,13 +25,12 @@ body {
 
 }
 
-.search-bar{
+input.search-bar{
     border-radius: 24px;
-    border:  none;
+    border: none;
     outline: none
-
-
-
+    width: calc(100% - 100px);
+    padding: 0.8em 1em;
 }
 
 /* .input{
@@ -52,6 +51,17 @@ button:hover{
     background: #7c7c7c;
     cursor: pointer;
 }
+
+h1.temp {
+    margin: 0px;
+}
+
+h2.city {
+    margin-block-end: 5%;
+    margin-block-start: 2%;
+}
+
+
 
 
 
